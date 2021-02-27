@@ -36,3 +36,78 @@
     transform: rotate(360deg);
   }
 }
+
+.id-card{
+  display: flex;
+  flex-direction: row;
+  align-content:center;
+  justify-content:flex-start;
+  text-align: left;
+  font-size: 0.85em;
+  border: solid 2px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  width:50%
+}
+.person-information{
+  margin-left: 5px;
+}
+.id-card img{
+  padding-top: 20px
+}
+
+.box{
+  text-align: left;
+  padding:10px, 10px, 10px, 10px;
+  border: solid 2px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  width:50%
+
+}
+.box-text{
+  text-align: left;
+  padding: 10px;
+}
+
+.cc-group{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content:space-around;
+}
+
+.credit-card{
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  display: inline-block;
+}
+.cc-type{
+  text-align: right;
+}
+
+.cc-type img{
+  height: 20px;
+}
+
+.data{
+  text-align: left;
+}
+
+.credit-card p {
+  font-size: 1.5em;
+}
+
+.bank-name{
+  margin-left: 10px;
+}
+
+.stars{
+  margin-left: 5px;
+  font-size: 2em;
+  text-align: left;
+}
